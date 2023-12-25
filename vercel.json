@@ -1,16 +1,9 @@
-// vercel.json
 {
   "version": 2,
   "builds": [
     {
-      "src": "api/index.go",
+      "src": "api/main.go",
       "use": "@vercel/go"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/index.go"
     }
   ]
 }
