@@ -4,7 +4,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/metabbe3/gobackend/api/handler"
+	handler "github.com/metabbe3/gobackend/api/handler"
 )
 
 func main() {
