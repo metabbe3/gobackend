@@ -1,10 +1,10 @@
+
 {
-    "version": 2,
-    "builds": [
-      { "src": "api/main.go", "use": "@vercel/go" }
-    ],
-    "env": {
-      "MY_CUSTOM_FLAG": "value"
-    }
+  "version": 2,
+  "builds": [
+    { "src": "./api/main.go", "use": "@vercel/go" }
+  ],
+  "env": {
+    "MY_CUSTOM_FLAG": "value"
   }
-  
+}
